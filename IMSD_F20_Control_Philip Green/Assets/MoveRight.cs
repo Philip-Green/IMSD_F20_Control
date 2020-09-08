@@ -14,15 +14,14 @@ public class MoveRight : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //myTransform.position = new Vector3(-10, myTransform.position.y, 0);
-        //timer = 0;
+        myTransform.position = new Vector3(-10,0, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
          myTransform.position = 
-          myTransform.position + new Vector3(1, 0, 0) * speed * Time.deltaTime;
+          myTransform.position + new Vector3(10, 0, 0) * speed * Time.deltaTime;
 
        
 

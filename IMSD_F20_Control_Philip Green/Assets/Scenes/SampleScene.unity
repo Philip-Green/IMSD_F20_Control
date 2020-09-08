@@ -257,6 +257,7 @@ GameObject:
   - component: {fileID: 662995353}
   - component: {fileID: 662995352}
   - component: {fileID: 662995351}
+  - component: {fileID: 662995356}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -271,7 +272,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662995350}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0435ae3a8686a594182b4c96556753ad, type: 3}
   m_Name: 
@@ -352,6 +353,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &662995356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662995350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdab890466ae16343923d0675efd617c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myTransform: {fileID: 662995355}
+  speed: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,7 +649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myTransform: {fileID: 1295243292}
-  speed: 1
+  speed: 2
 --- !u!1 &2074720063
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,6 +663,7 @@ GameObject:
   - component: {fileID: 2074720066}
   - component: {fileID: 2074720065}
   - component: {fileID: 2074720064}
+  - component: {fileID: 2074720069}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -662,7 +678,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2074720063}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0435ae3a8686a594182b4c96556753ad, type: 3}
   m_Name: 
@@ -743,3 +759,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2074720069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074720063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f383f23d498c984daf7f7251b8801c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myTransform: {fileID: 2074720068}
+  speed: 1
