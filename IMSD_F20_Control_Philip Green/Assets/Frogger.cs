@@ -15,24 +15,24 @@ public class Frogger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W)) //Hold key to be true.
+        if (Input.GetKey(KeyCode.Q)) //Hold key to be true.
         {
             myTransform.position += new Vector3(0, Time.deltaTime * speed, 0);
         }
 
 
 
-        if (Input.GetKeyUp(KeyCode.W))
+        if (Input.GetKeyUp(KeyCode.Q))
         {
             myTransform.position += Vector3.up;
         }
     
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.P))
         {
             myTransform.position += new Vector3(0, -Time.deltaTime * speed, 0);
         }
 
-        if (Input.GetKeyUp(KeyCode.S))
+        if (Input.GetKeyUp(KeyCode.P))
         {
             myTransform.position += Vector3.down;
         }
